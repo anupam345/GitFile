@@ -1,0 +1,336 @@
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mInsertions: [0m107
+[1;31mDeletions: [0m14
+[1;31mTotal: [0m121
+[1;31mFile Name: [0msrc/reference/asciidoc/whats-new.adoc
+[1;31mInsertions: [0m6
+[1;31mDeletions: [0m0
+[1;31mTotal: [0m6
+/spring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java b/spring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+@@ -18,0 +19 @@ package org.springframework.amqp.rabbit.connection;
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpackage org.springframework.amqp.rabbit.connection
+[1;31mAffected Lines: [0mLine number 19 to 19
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -23 +23,0 @@ import java.security.KeyStore;
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mimport java.security.KeyStore
+[1;31mAffected Lines: [0mLine number 23 to 23
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -30,0 +31 @@ import java.util.concurrent.ThreadFactory;
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mimport java.util.concurrent.ThreadFactory
+[1;31mAffected Lines: [0mLine number 31 to 31
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -32,0 +34 @@ import javax.net.SocketFactory;
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mimport javax.net.SocketFactory
+[1;31mAffected Lines: [0mLine number 34 to 34
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -44,0 +47,4 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mimport org.springframework.core.io.support.PathMatchingResourcePatternResolver
+[1;31mAffected Lines: [0mLine number 47 to 47
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -77,0 +84,31 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 84 to 84
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -106 +143 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 143 to 143
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -108 +145 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 145 to 145
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -110 +147 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 147 to 147
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -112 +149 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 149 to 149
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -114 +151 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 151 to 151
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -116 +153 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 153 to 153
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -118 +155 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 155 to 155
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -120 +157 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 157 to 157
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -122 +159 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 159 to 159
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -124 +161 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 161 to 161
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -126 +163 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 163 to 163
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -129,0 +167,4 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 167 to 167
+[1;31mMost frequently identified commit : [0m3b605cdd
+==============================================================
+()
+[1;31mNo parameter : [0m3b605cdd
+[1;31mWith -w : [0m3b605cdd
+[1;31mWith -wM : [0m3b605cdd
+[1;31mWith -wC : [0m3b605cdd
+[1;31mWith -wCC : [0m3b605cdd
+[1;31mWith -wCCC : [0m3b605cdd
+@@ -594,0 +636,40 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 636 to 636
+[1;31mMost frequently identified commit : [0maff4d0ae
+==============================================================
+()
+[1;31mNo parameter : [0maff4d0ae
+[1;31mWith -w : [0maff4d0ae
+[1;31mWith -wM : [0maff4d0ae
+[1;31mWith -wC : [0maff4d0ae
+[1;31mWith -wCC : [0maff4d0ae
+[1;31mWith -wCCC : [0maff4d0ae
+@@ -676,0 +758 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 758 to 758
+[1;31mMost frequently identified commit : [0maff4d0ae
+==============================================================
+()
+[1;31mNo parameter : [0maff4d0ae
+[1;31mWith -w : [0maff4d0ae
+[1;31mWith -wM : [0maff4d0ae
+[1;31mWith -wC : [0maff4d0ae
+[1;31mWith -wCC : [0maff4d0ae
+[1;31mWith -wCCC : [0maff4d0ae
+@@ -692,2 +774 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 774 to 774
+[1;31mMost frequently identified commit : [0maff4d0ae
+==============================================================
+()
+[1;31mNo parameter : [0maff4d0ae
+[1;31mWith -w : [0maff4d0ae
+[1;31mWith -wM : [0maff4d0ae
+[1;31mWith -wC : [0maff4d0ae
+[1;31mWith -wCC : [0maff4d0ae
+[1;31mWith -wCCC : [0maff4d0ae
+@@ -699,0 +781,12 @@ public class RabbitConnectionFactoryBean extends AbstractFactoryBean<ConnectionF
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mEnclosing Scope: [0mpublic class RabbitConnectionFactoryBean extends AbstractFactoryBean<Connection
+[1;31mAffected Lines: [0mLine number 781 to 781
+[1;31mMost frequently identified commit : [0maff4d0ae
+==============================================================
+()
+[1;31mNo parameter : [0maff4d0ae
+[1;31mWith -w : [0maff4d0ae
+[1;31mWith -wM : [0maff4d0ae
+[1;31mWith -wC : [0maff4d0ae
+[1;31mWith -wCC : [0maff4d0ae
+[1;31mWith -wCCC : [0maff4d0ae
+/src/reference/asciidoc/whats-new.adoc b/src/reference/asciidoc/whats-new.adoc
+@@ -64,0 +65,6 @@ See <<transaction-rollback>> for more information.
+[1;31mFile Name: [0msrc/reference/asciidoc/whats-new.adoc
+[1;31mEnclosing Scope: [0mSee <<transaction-rollback>> for more information
+[1;31mAffected Lines: [0mLine number 65 to 65
+[1;31mMost frequently identified commit : [0maff4d0ae
+==============================================================
+()
+[1;31mNo parameter : [0maff4d0ae
+[1;31mWith -w : [0maff4d0ae
+[1;31mWith -wM : [0maff4d0ae
+[1;31mWith -wC : [0maff4d0ae
+[1;31mWith -wCC : [0maff4d0ae
+[1;31mWith -wCCC : [0maff4d0ae
+[1;31mCommit Title:[0m    AMQP-830 Enable Hostname Verification by default
+[1;31mCommit Message:[0m    JIRA: https://jira.spring.io/browse/AMQP-830
+spring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+src/reference/asciidoc/whats-new.adoc
+[1;31mAffected Files:[0m2
+[1;31mDeletions including blank lines:[0m14
+[1;31mInsertions including blank lines:[0m113
+[1;31mDeletions excluding blank lines and comments:[0m14
+[1;31mInsertions excluding blank lines and comments:[0m73
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mVCC Commit Date\Time: [0m2018-08-28 13:05:55
+[1;31mFix Commit Date\Time: [0m2018-08-28 13:05:55
+[1;31mTime Difference: [0m0:00:00
+===
+[1;31mFile Name: [0msrc/reference/asciidoc/whats-new.adoc
+[1;31mVCC Commit Date\Time: [0m2018-08-28 13:05:55
+[1;31mFix Commit Date\Time: [0m2018-08-28 13:05:55
+[1;31mTime Difference: [0m0:00:00
+===
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mNumber of Revisions including renaming: [0m14
+====
+[1;31mFile Name: [0msrc/reference/asciidoc/whats-new.adoc
+[1;31mNumber of Revisions including renaming: [0m65
+====
+[1;31mFile Name: [0mspring-rabbit/src/main/java/org/springframework/amqp/rabbit/connection/RabbitConnectionFactoryBean.java
+[1;31mContributors of the file: [0m
